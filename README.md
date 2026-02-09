@@ -44,6 +44,8 @@ This approach serves as a simple baseline and does not use any spatial or contex
 * No spatial or texture awareness
 * Produces noisy segmentation masks
 
+<img width="857" height="273" alt="Screenshot 2026-02-09 at 9 34 53 PM" src="https://github.com/user-attachments/assets/d7b9ffda-7b26-49d2-ba2a-dd1950db8a8d" />
+
 ---
 
 ### Approach 2 — Pixel-level RGB + Spatial Coordinates
@@ -62,6 +64,8 @@ Adding spatial priors allows the model to learn location-dependent patterns, suc
 * Cleaner segmentation compared to Approach 1
 * Still ignores texture and local structure
 
+<img width="857" height="271" alt="Screenshot 2026-02-09 at 9 35 07 PM" src="https://github.com/user-attachments/assets/8a0c0d85-165d-4fe5-b408-38524c1beab9" />
+
 ---
 
 ### Approach 3 — Region-based Mean RGB + Spatial Coordinates
@@ -79,6 +83,9 @@ Region-level aggregation reduces pixel noise and stabilizes predictions.
 * Best balance between simplicity and performance
 * Robust to local pixel noise
 * Produces block-like segmentation boundaries
+
+<img width="855" height="271" alt="Screenshot 2026-02-09 at 9 35 37 PM" src="https://github.com/user-attachments/assets/22d36da5-92f9-425f-b906-1c351b2b82d8" />
+
 
 ---
 
@@ -107,6 +114,12 @@ Two variants were evaluated:
 * HOG features are highly discriminative but data-hungry
 * Ignores color information
 * Sensitive to class imbalance
+
+
+<img width="857" height="270" alt="Screenshot 2026-02-09 at 9 35 50 PM" src="https://github.com/user-attachments/assets/8f8dc0c2-1ca1-45e2-832f-320bef8e817b" />
+
+<img width="926" height="209" alt="Screenshot 2026-02-09 at 4 05 28 PM" src="https://github.com/user-attachments/assets/b5183cc5-71b8-4a16-a0de-148425b14f09" />
+
 
 ---
 
