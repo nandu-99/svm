@@ -14,6 +14,9 @@ This project uses the **Floor Segmentation dataset** hosted on Roboflow.
 Dataset link:
 [https://universe.roboflow.com/uni-phtjr/floor-segmentation-huuot](https://universe.roboflow.com/uni-phtjr/floor-segmentation-huuot)
 
+Short dataset (Google Drive):
+[https://drive.google.com/drive/folders/1n_-p-fRqZFjEET-mkbEwi44fuf6i3UUs?usp=sharing](https://drive.google.com/drive/folders/1n_-p-fRqZFjEET-mkbEwi44fuf6i3UUs?usp=sharing)
+
 * **Format:** COCO segmentation format
 * **Task:** Binary segmentation
 
